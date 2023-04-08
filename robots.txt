@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://www.feryaeljustice.github.io/feryael-justice-dj-portfolio/sitemap.xml
+Sitemap: https://feryaeljustice.github.io/feryael-justice-dj-portfolio/sitemap.xml
