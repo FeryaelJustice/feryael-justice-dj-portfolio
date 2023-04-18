@@ -12,6 +12,9 @@
     <link rel="icon" href="favicon.ico">
     <link rel="robots" href="https://feryaeljustice.github.io/feryael-justice-dj-portfolio/robots.txt">
     <link rel="stylesheet" href="styles.css">
+    <script async defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
     <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=4f44eb16"></script>
 </head>
 
@@ -39,13 +42,16 @@
         </section>
         <section id="estilo-musica">
             <h2>ESTILO DE MÚSICA</h2>
-            <p>Mi estilo de música se enfoca en el </p><em>EDM</em><p>, con especial énfasis en Bigroom, Bigroom Techno y Progressive,
+            <p>Mi estilo de música se enfoca en el </p><em>EDM</em>
+            <p>, con especial énfasis en Bigroom, Bigroom Techno y Progressive,
                 así como en el Hardstyle. Me encanta fusionar diferentes géneros y estilos para crear algo único y
                 diferente, y siempre estoy buscando nuevas formas de experimentar con la música.</p>
         </section>
         <section id="equipo">
             <h2>EQUIPO</h2>
-            <p>Actualmente cuento con un controlador </p><em>Numark Mixtrack Pro 3</em><p> y auriculares </p><em>Sennheiser HD 25</em><p>, que son mi
+            <p>Actualmente cuento con un controlador </p><em>Numark Mixtrack Pro 3</em>
+            <p> y auriculares </p><em>Sennheiser HD 25</em>
+            <p>, que son mi
                 equipo principal. Aunque no cuento con equipo de altavoces ni equipo técnico de sonido propio, siempre
                 estoy dispuesto a adaptarme y trabajar con el equipo disponible en el lugar donde se realice el evento.
             </p>
@@ -69,6 +75,47 @@
             <h2>CONTÁCTAME</h2>
             <p>Si deseas obtener más información o contratarme para un evento, no dudes en ponerte en contacto conmigo a
                 través de mi correo electrónico: <a href="mailto:nano9gs@hotmail.es">nano9gs@hotmail.es</a>.</p>
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-9">
+                        <h1 class="mb-3">O contáctame via formulario</h1>
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="your-name" class="form-label">Tu nombre</label>
+                                    <input type="text" class="form-control" id="your-name" name="your-name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="your-surname" class="form-label">Apellidos</label>
+                                    <input type="text" class="form-control" id="your-surname" name="your-surname"
+                                        required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="your-email" class="form-label">Tu email</label>
+                                    <input type="email" class="form-control" id="your-email" name="your-email" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="your-subject" class="form-label">Asunto</label>
+                                    <input type="text" class="form-control" id="your-subject" name="your-subject">
+                                </div>
+                                <div class="col-12">
+                                    <label for="your-message" class="form-label">Mensaje</label>
+                                    <textarea class="form-control" id="your-message" name="your-message" rows="5"
+                                        required></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <button data-res="<?php echo $sum; ?>" type="submit"
+                                                class="btn btn-dark w-100 fw-bold">Send</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
