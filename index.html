@@ -98,6 +98,9 @@
         </section>
     </main>
     <footer>
-        <p>&copy; 2023/2024: Feryael Justice</p>
+        <p>&copy; <span id="currentYear"></span>: Feryael Justice</p>
+        <script>
+            document.getElementById("currentYear").textContent = new Date().getFullYear();
+        </script>
     </footer>
 </body
